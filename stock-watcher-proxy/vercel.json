@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/getStockData.ts": {
+      "runtime": "vercel-node@3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/stock",
+      "dest": "/api/getStockData.ts"
+    }
+  ]
+}
