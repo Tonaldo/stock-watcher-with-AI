@@ -1,5 +1,5 @@
 {
-  "name": "example-with-tailwindcss",
+  "name": "stock-watcher",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
@@ -7,9 +7,9 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@solidjs/router": "^0.15.0",
-    "@solidjs/start": "^1.1.0",
-    "solid-start-vercel": "^0.1.0"
+    "@solidjs/router": "^0.8.2",
+    "@solidjs/start": "^0.3.11",
+    "solid-start-vercel": "^0.1.8"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.7",
